@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root{
+    --bg: hsl(228, 15%, 13%);
+    --font: 'Roboto Mono', monospace;
+    --color: #db886f;
+    --sub_color: #c4a88a;
+}
+
+body{
+    background-color: var(--bg);
+    font-family: var(--font);
+    color: var(--color);
+    text-align: center;
+}
+
+#space_bar{
+    font-size: 50px;
+}
+
+.button_reset {
+    width: 200px; 
+    height: 70px;
+    font-size: 20px;
+    font-family: var(--font);
+    color: var(--bg);
+    background-color: var(--sub_color);
+    border: none;
+    cursor: pointer;
+}
