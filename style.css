@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto+Mono&display=swap');
 
 :root {
   --bg: hsl(228, 15%, 13%);
@@ -102,10 +101,6 @@ body {
   font-size: 80px;
 }
 
-.logo_text{
-  font-size: 40px;
-  font-family: 'Inconsolata', monospace;
-}
 .navbar{
   text-align: left;
 }
