@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto+Mono&display=swap');
+
+:root {
+  --bg: hsl(228, 15%, 13%);
+  --font: "Roboto Mono", monospace;
+  --color: #db886f;
+  --sub_color: #c4a88a;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: var(--font);
+  color: var(--color);
+  text-align: center;
+}
+
+#space_bar {
+  font-size: 70px;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-links {
+  padding-right: 10px;
+}
+
+.footer-links:hover {
+  text-decoration: underline;
+}
+
+.footer-links_all {
+  text-decoration: none;
+  color: var(--color);
+}
+.icon {
+  padding: 0px;
+}
+
+.link{
+  text-align: center;
+  text-decoration: none;
+  color: var(--color);
+}
+
+.made:hover{
+  text-decoration: underline;
+}
+
+#about{
+  text-align: center;
+  width: 800px;
+  line-height: 23px;
+}
+
+.about_desc{
+  font-size: 18px;
+}
+
+#about_header{
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+
+.about_sub_header{
+  font-size: 28px;
+}
+
+.underline{
+  text-decoration: underline!important;
+}
+
+.link_home{
+  font-size: 40px;
+  padding-bottom: 10px;
+  float: left;
+}
+
+.top{
+  top: 0px;
+}
+
+.nav_link{
+  position: relative;
+  padding-right: 25px;
+}
+
+.reset{
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.made:hover{
+  text-decoration: underline;
+}
+
+#coming_soon{
+  font-size: 80px;
+}
+
+.logo_text{
+  font-size: 40px;
+  font-family: 'Inconsolata', monospace;
+}
+.navbar{
+  text-align: left;
+}
